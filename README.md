@@ -45,5 +45,11 @@ $: rspec test/markov_spec.rb
 ### Tips for use
 The greater your source text the more options of initial values you will have available and the more variance there will be in your generated text. 1st order chains allow for more variance in generated text but will give less readability. The higher the order used the more readable but the less variance the generated text will have.
 
+### Possible further improvements
+* Improve performance and refactor.
+* Read source text from a file.
+* Create a simple CLI for easy usage.
+* Build a fancy front-end UI and host this somewhere ¯\\_(ツ)_/¯
+
 ### License
 MIT
